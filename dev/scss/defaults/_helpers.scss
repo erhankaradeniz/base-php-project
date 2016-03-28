@@ -1,0 +1,31 @@
+// Clearfix for floatinf elements
+
+%clearfix {
+  *zoom: 1;
+  &:after {
+    content: '';
+    display: table;
+    line-height: 0;
+    clear: both;
+  }
+}
+
+// Horizontally Center Content in a container
+
+.center-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+// Float Elements
+
+.left {float: left;}
+.right {float:right;}
+
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

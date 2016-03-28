@@ -1,0 +1,47 @@
+.wri-sidebar {
+    @extend .left;
+    width: 78px;
+    padding: 18px;
+    .logo {
+        width: 42px;
+        height: 42px;
+        margin: 0;
+        a {
+            width: 42px;
+            height: 42px;
+            display: block;
+            position: relative;
+            svg {
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+        }
+    }
+    .sitemenu {
+        li {
+            a {
+                display: block;
+                width: 42px;
+                height: 42px;
+                text-indent: -9999px;
+                border-radius: 3px;
+                border: 1px solid $grey-lightest;
+                opacity: 0.5;
+                &:hover {
+                    opacity: 1;
+                }
+                &.icon-home {
+                    svg {
+                        @extend %vertical-align;
+                        display: block;
+                        margin: 0 auto;
+                        fill: $grey-lightest;
+                        width: 16px;
+                        height: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

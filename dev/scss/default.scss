@@ -1,0 +1,54 @@
+/*
+-----------------------------------------------------
+Base Stylesheet Web Resources Index http://www.wri.io
+Media: Mobile, Screen
+
+Author: Erhan Karadeniz
+
+-----------------------------------------------------
+*/
+
+// Normalize
+
+@import "defaults/_normalize.scss";
+
+// Helpers
+
+@import "defaults/_helpers.scss";
+
+// Functions
+
+@import "defaults/_functions.scss";
+
+// Mixins
+
+@import "defaults/_mixins.scss";
+
+// Variables
+
+@import "defaults/_variables.scss";
+
+// Fonts
+
+// @import "defaults/_fonts.scss";
+
+// Grid System
+
+//@import "partials/_grids.scss";
+
+// Base
+
+@import "defaults/_base.scss";
+
+// Put Your stuff here
+
+@import "_page.scss";
+
+// Internet Explorer Specific fixes
+
+// @import "partials/_ie.scss";
+
+// Print styles
+
+// @import "defaults/_print.scss";
+

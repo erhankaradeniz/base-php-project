@@ -1,0 +1,8 @@
+// Function for returning the HEX Value of a RGBA variant for crossbrowser support
+
+@function trans($color, $percentage) {
+ @return lighten($color, (1-$percentage)*5%);
+}
+@function transd($color, $percentage) {
+ @return darken($color, ($percentage)*5%);
+}

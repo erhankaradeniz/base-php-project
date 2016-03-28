@@ -1,0 +1,28 @@
+// initial variables set-up
+$doc-font-size:1em;
+$doc-line-height:1.45em;
+
+// width values
+$width-left:                24.75660639777469%;
+$width-right:               75.24339360222531%;
+
+// COLORS - Main
+$white:                     #ffffff;
+$red:                       #ff463d;
+
+// Site Specific Colors
+$body-font-color:    #000000;
+$body-bg-color:      #f5f5f5;
+
+// font family
+
+$header-font:   "Open Sans",Helvetica,Arial,sans-serif;
+$content-font:  "Open Sans",Helvetica,Arial,sans-serif;
+
+// Breakpoints for media queries
+
+$smartphone: 480px;
+$tabletPortrait: 767px;
+$tabletLandscape: 1024px;
+$desktop: 1174px;
+$largeScreen: 1400px;

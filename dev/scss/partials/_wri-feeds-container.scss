@@ -1,0 +1,45 @@
+.wri-feeds-container {
+    @extend .left;
+    background: $white;
+    width: 330px;
+    height: 100%;
+    position: relative;
+    .feeds-dropdown {
+        background: $grey-lightest;
+        border-radius: 3px;
+        margin: 18px 12px;
+        height: 42px;
+    }
+    .feeds-list {
+        margin: 0;
+        li {
+            a.feed {
+                @extend %clearfix;
+                color: $body-font-color-lightbg;
+                display: block;
+                position: relative;
+                padding: 10px 12px;
+                border-bottom: 1px solid $grey-lightest;
+                .counter {
+                    @extend .left;
+                    background: #f28547; // XXX Moet variable zijn!!
+                    border-radius: 3px;
+                    width: 30px;
+                    height: 30px;
+                    color: $white;
+                    text-align: center;
+                    line-height: 30px;
+                    margin-right: 12px;
+                }
+                .title {
+                    @extend .left;
+                    display: inline-block;
+                    line-height: 30px;
+                    &:hover {
+                        color: $red;
+                    }
+                }
+            }
+        }
+    }
+}
