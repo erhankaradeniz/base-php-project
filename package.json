@@ -1,6 +1,6 @@
 {
-  "name": "deryaacikgoz.com",
-  "description": "deryaacikgoz.com resmi websitesi",
+  "name": "base-project",
+  "description": "Simple skeleton setup for PHP projects.",
   "version": "0.0.1",
   "private": true,
   "dependencies": {},
